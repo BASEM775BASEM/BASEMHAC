@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💟 عقول راقية 💟 - مجموعتي على الواتساب</title>
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            direction: rtl;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #007bff, #ff7f50, #6a5acd, #1eb058);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+            color: #fff;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* تنسيق النصوص المتحركة */
+        .marquee-container {
+            width: 100%;
+            padding: 10px 0;
+            overflow: hidden;
+            position: relative;
+            font-size: 24px;
+            font-weight: bold;
+            background-color: #000;
+            box-shadow: 0 0 15px #007bff;
+        }
+
+        .marquee-text {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 8s linear infinite;
+        }
+
+        @keyframes marquee {
+            from { transform: translateX(100%); }
+            to { transform: translateX(-100%); }
+        }
+
+        /* تنسيق التاريخ والوقت */
+        #datetime {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+            color: #ffeb3b;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+        }
+
+        h1 {
+            color: #ffeb3b;
+            text-shadow: 3px 3px #000;
+            animation: textPulse 2s infinite;
+        }
+
+        @keyframes textPulse {
+            0%, 100% { text-shadow: 3px 3px 5px #000; }
+            50% { text-shadow: 5px 5px 10px #fff; }
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #00ffff;
+            text-shadow: 1px 1px 5px #000;
+        }
+
+        p {
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: linear-gradient(to right, #6a5acd, #1eb058);
+            color: #fff;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .join-btn {
+            display: inline-block;
+            background: radial-gradient(circle, #25d366, #1eb058);
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+        }
+
+        .join-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 25px #fff;
+        }
+
+        #error-message {
+            color: red;
+            font-size: 18px;
+        }
+
+        #desktop-message {
+            color: #f0ad4e;
+            font-size: 18px;
+        }
+
+        /* تنسيق النموذج */
+        .form-container {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+
+        .form-container input,
+        .form-container select,
+        .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            color: #fff;
+            background-color: #333;
+        }
+
+        .form-container button {
+            width: 100%;
+            background-color: #28a745;
+            color: #fff;
+            padding: 12px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <!-- شريط التمرير الأول -->
+    <div class="marquee-container">
+        <div class="marquee-text">🇾🇪 المبرمج باسم الذيابي 🇵🇸 غزة</div>
+    </div>
+
+    <!-- شريط التمرير الثاني -->
+    <div class="marquee-container">
+        <div class="marquee-text">🖤 لن ننسى غزة وفلسطين قضيتنا الأولى 🖤</div>
+    </div>
+
+    <!-- عرض التاريخ والوقت -->
+    <div id="datetime"></div>
+
+    <div class="container">
+        <h1>💟 عقول راقية 💟</h1>
+        <p>الله كرم الإنسان وميزه بالعقل، فجعل عقلك زينة، ولا تتحسر على مشكلة ما، فالاستعانة بالله ثم تحريك عقلك لصنع الحلول مهما كانت صعوبتها.</p>
+        <p>تذكر أنك إنسان، وأن لديك عقلًا. الهدف من المجموعة هو كيفية التعامل مع مشكلاتك وأيضًا إيجاد الحلول الصعبة.</p>
+
+        <h2>📌 الموضوعات الرئيسية:</h2>
+        <ul>
+            <li>تكنولوجيا</li>
+            <li>العقل اللاواعي</li>
+            <li>الأفكار الإبتكارية</li>
+            <li>تنمية بشرية</li>
+            <li>تحفيز</li>
+            <li>مهارة التحدث</li>
+            <li>العقل الباطن</li>
+            <li>المهارات الشخصية</li>
+            <li>فن التعامل مع الناس</li>
+            <li>برمجة العقل</li>
+            <li>التفكير الإبداعي</li>
+            <li>تطوير الذات</li>
+            <li>التفاؤل</li>
+            <li>مرونة التفكير</li>
+            <li>نصائح تربوية</li>
+        </ul>
+
+        <h2>📞 للتواصل مع مشرف المجموعة:</h2>
+        <ul>
+            <li><a href="tel:+967775956495" style="color:#00ffff;">📞 +967775956495</a></li>
+            <li><a href="tel:+967715585022" style="color:#00ffff;">📞 +967715585022</a></li>
+        </ul>
+
+        <h2>📢 روابط مهمة:</h2>
+        <ul>
+            <li>📢 قناتي على تليجرام: <a href="https://t.me/cyberhak1" target="_blank" style="color:#ffeb3b;">🔗 https://t.me/cyberhak1</a></li>
+            <li>📩 حسابي على تليجرام: <a href="https://t.me/BASEM_CYS" target="_blank" style="color:#ffeb3b;">💬 @BASEM_CYS</a></li>
+        </ul>
+
+        <!-- نموذج إرسال رسالة -->
+        <div class="form-container">
+            <h2>📬 أرسل رسالة:</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="أدخل اسمك" required>
+                <input type="text" id="province" placeholder="أدخل المحافظة" required>
+                <input type="text" id="city" placeholder="أدخل المدينة" required>
+                <input type="number" id="age" placeholder="أدخل عمرك" required>
+                <input type="text" id="specialization" placeholder="أدخل تخصصك" required>
+                <input type="number" id="lovePercentage" placeholder="نسبة حبك لي (من 0 إلى 100)" required min="0" max="100">
+                <textarea id="userMessage" placeholder="اكتب رسالتك هنا" required style="width: 100%; padding: 10px; margin-top: 10px; border-radius: 5px;"></textarea>
+                <button type="submit">إرسال الرسالة</button>
+            </form>
+            <p id="formMessage"></p>
+            <p id="error-message">إذا لم يتم توصيل الرسالة إلي، يرجى إرسال رسالة توضح سبب عدم التوصيل.</p>
+        </div>
+    </div>
+
+    <script>
+        function updateDateTime() {
+            const now = new Date();
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            const formattedDate = now.toLocaleDateString('ar-EG', options);
+            const formattedTime = now.toLocaleTimeString('ar-EG');
+            document.getElementById("datetime").innerHTML = "📆 " + formattedDate + " | ⏰ " + formattedTime;
+        }
+
+        setInterval(updateDateTime, 1000);
+        updateDateTime();
+
+        // التعامل مع النموذج
+        document.getElementById("contactForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            
+            const name = document.getElementById("name").value;
+            const province = document.getElementById("province").value;
+            const city = document.getElementById("city").value;
+            const age = document.getElementById("age").value;
+            const specialization = document.getElementById("specialization").value;
+            const lovePercentage = document.getElementById("lovePercentage").value;
+            const userMessage = document.getElementById("userMessage").value;
+
+            if (name && province && city && age && specialization && lovePercentage && userMessage) {
+                document.getElementById("formMessage").innerText = "تم إرسال رسالتك بنجاح!";
+            } else {
+                document.getElementById("formMessage").innerText = "يرجى ملء جميع الحقول.";
+            }
+        });
+    </script>
+</body>
+</html>
